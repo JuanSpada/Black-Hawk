@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Estilos Nav */
+
+nav{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(45, 52, 54, 1);
+}
+
+.nav-izq{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+}
+
+.nav-izq>li>a{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+}
+
+.nav-izq>li>a:hover{
+    background-color: rgba(178, 190, 195, 0.50);
+}
+
+.nav-der{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+}
+
+.nav-der>li>a{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-der>li>a:hover{
+    background-color: rgba(178, 190, 195, 0.50);
+}
+
+/* Estilos del Footer */
+
+footer{
+    background-color: rgba(99, 110, 114, 1);
+
+}
